@@ -1,8 +1,7 @@
-/**Fernando Jose Garavito Ovando    18071
-*Maria Jose
-*Hoja de trabajo No. 3
-*Main.java
-**/
+// Fernando Jose Garavito Ovando    18071
+// Maria Jose Castro 181202
+// Hoja de trabajo No. 3
+// Main.java
 
 public class Numero {
 	private int num;
