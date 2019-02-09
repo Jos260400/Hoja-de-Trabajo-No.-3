@@ -5,6 +5,7 @@
 *Sorts.java
 */
  
+// Java program for implementation of Gnome Sort
 public class GnomeSort { 
    static void gnomeSort( int[] theArray ) { 
       for ( int index = 1; index < theArray.length; ) { 
