@@ -1,0 +1,36 @@
+/**
+ *Fernando Jose Garavito Ovando    18071
+*Maria Jose Castro 181202
+*Hoja de trabajo No. 3
+*Comparable.java
+ */
+
+/**
+ * @author Majo!
+ *
+ */
+public class Comparar implements Comparable<Comparar> {
+	
+	
+	private int num;
+	
+	public void setNum(int num) {
+		this.num = num;
+	}
+	public int getNum() {
+		return num;
+	}
+
+	@Override
+	public int compareTo(Comparar o) {
+		// TODO Auto-generated method stub
+		if (this.num == o.num) {
+			return 0;
+		}
+		if (this.num > o.num) {
+			return 1;
+		}
+		else {
+			return -1;
+		}
+	}
