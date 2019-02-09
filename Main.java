@@ -10,6 +10,7 @@ import java.util.Scanner;
 import java.util.Random;
 public class Main {
     public static void main(String[] args) {
+         Random random = new Random();
              int opcion;
 
                 Scanner S = new Scanner(System.in);
@@ -29,31 +30,77 @@ public class Main {
         switch(opcion){
             case 1:
                 System.out.println("Merge");
-
-
-                break;
-            case 2:
-                System.out.println("Quick");
-                break;
-            case 3:
-                System.out.println("Insertion");
-                break;
-            case 4:
-                System.out.println("Radix");
-                break;
-            case 5:
-                System.out.println("Gnome");
-                break;
-            case 6:
-                System.out.println("Usted ha salido del programa");
-                break;
-        }
-        Random random = new Random();
+                       
         //Ciclo para crear los números
         for (int i=0; i<3001; i++){
             //Imprime los 3000 números enteros aleatorios
             System.out.println(random.nextInt(3001));
         }
+
+                break;
+            case 2:
+                System.out.println("Quick");
+                
+                                       
+        //Ciclo para crear los números
+        for (int i=0; i<3001; i++){
+            //Imprime los 3000 números enteros aleatorios
+            System.out.println(random.nextInt(3001));
+        }
+                
+             
+         
+                break;
+            case 3:
+                System.out.println("Insertion");
+                
+                
+                                       
+        //Ciclo para crear los números
+        for (int i=0; i<3001; i++){
+            //Imprime los 3000 números enteros aleatorios
+            System.out.println(random.nextInt(3001));
+        }
+                
+                break;
+            case 4:
+                System.out.println("Radix");
+                
+                
+                                       
+        //Ciclo para crear los números
+        for (int i=0; i<3001; i++){
+            //Imprime los 3000 números enteros aleatorios
+            System.out.println(random.nextInt(3001));
+        }
+                
+                break;
+            case 5:
+                System.out.println("Gnome");
+                
+                
+                                       
+        //Ciclo para crear los números
+        for (int i=0; i<3001; i++){
+            //Imprime los 3000 números enteros aleatorios
+            System.out.println(random.nextInt(3001));
+        }
+                
+                break;
+            case 6:
+                System.out.println("Usted ha salido del programa");
+                
+                
+                                       
+        //Ciclo para crear los números
+        for (int i=0; i<3001; i++){
+            //Imprime los 3000 números enteros aleatorios
+            System.out.println(random.nextInt(3001));
+        }
+                
+                break;
+        }
+
 
     }
 }
