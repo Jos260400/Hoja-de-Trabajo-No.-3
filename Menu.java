@@ -1,10 +1,20 @@
+/**
+*Fernando Jose Garavito Ovando 18071
+*Maria Jose Castro 181202
+*Hoja de trabajo No. 3
+*Menu.java
+*/
 
 package com.company;
+
+// Importamos Scanner
 import java.util.Scanner;
 public class Menu {
     public static void main(String[] args) {
         int opcion;
         Scanner S = new Scanner(System.in);
+        
+        // Iniciamos el ciclo para que el ususario escoja una opción
         do{
             System.out.println("Menú de Sorts");
             System.out.println("1. Merge");
