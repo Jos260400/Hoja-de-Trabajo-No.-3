@@ -1,17 +1,13 @@
 import java.io.*; 
 import java.util.*; 
 
+
 /**
- *Fernando Jose Garavito Ovando    18071
+*Fernando Jose Garavito Ovando 18071
 *Maria Jose Castro 181202
 *Hoja de trabajo No. 3
 *Sorts.java
- */
-
-/**
- * @author Majo!
- * Este sort fue extraido de GEEKSforGEEKS.com
- */
+*/
 
 class Radix { 
 
